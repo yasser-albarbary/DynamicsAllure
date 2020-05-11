@@ -1,41 +1,41 @@
 [ {
-  "uid" : "68459d5790307f3d",
-  "name" : "04 Delete sales account",
-  "time" : {
-    "start" : 1589207510701,
-    "stop" : 1589207574369,
-    "duration" : 63668
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e90b71c941985da5",
-  "name" : "01 Add Sales Account",
-  "time" : {
-    "start" : 1589207319059,
-    "stop" : 1589207363099,
-    "duration" : 44040
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ae805b2f9c60e6e",
-  "name" : "02 Update Sales Account",
-  "time" : {
-    "start" : 1589207372046,
-    "stop" : 1589207429321,
-    "duration" : 57275
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca72a7ea0a723520",
+  "uid" : "8a31d1044a88606b",
   "name" : "03 Check update in PDF export",
   "time" : {
-    "start" : 1589207438000,
-    "stop" : 1589207501770,
-    "duration" : 63770
+    "start" : 1589208283117,
+    "stop" : 1589208348558,
+    "duration" : 65441
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a78c5510d7e07720",
+  "name" : "02 Update Sales Account",
+  "time" : {
+    "start" : 1589208215253,
+    "stop" : 1589208274109,
+    "duration" : 58856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92e094e8a8ed46ee",
+  "name" : "01 Add Sales Account",
+  "time" : {
+    "start" : 1589208143470,
+    "stop" : 1589208206280,
+    "duration" : 62810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2326f9a56842c888",
+  "name" : "04 Delete sales account",
+  "time" : {
+    "start" : 1589208355537,
+    "stop" : 1589208422862,
+    "duration" : 67325
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

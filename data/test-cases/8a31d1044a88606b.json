@@ -1,0 +1,206 @@
+{
+  "uid" : "8a31d1044a88606b",
+  "name" : "03 Check update in PDF export",
+  "fullName" : "03 Check update in PDF export",
+  "historyId" : "03 Check update in PDF export",
+  "time" : {
+    "start" : 1589208283117,
+    "stop" : 1589208348558,
+    "duration" : 65441
+  },
+  "status" : "failed",
+  "statusMessage" : "PDF header signature not found.",
+  "statusTrace" : "iTextSharp.text.exceptions.InvalidPdfException: PDF header signature not found.\r\n   at iTextSharp.text.pdf.PdfReader..ctor(IRandomAccessSource byteSource, Boolean partialRead, Byte[] ownerPassword, X509Certificate certificate, ICipherParameters certificateKey, Boolean closeSourceOnConstructorError)\r\n   at iTextSharp.text.pdf.PdfReader..ctor(String filename)\r\n   at cdafn_base.PDFMethods.ExtractTextFromPDF(String pdfFileName) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\Utilities\\PDFMethods.cs:line 159\r\n   at cdafn_base.PDFMethods.FindMatch(Regex regex, String filePath) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\Utilities\\PDFMethods.cs:line 183\r\n   at cdafn_base.StepDefinitions.DynamicsEasyRepoSteps.ThenThePdfFileIsExportedWithTheUpdated(String phonenumber) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyRepoSteps.cs:line 217\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589208280583,
+      "stop" : 1589208283062,
+      "duration" : 2479
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207971813,
+      "stop" : 1589207971816,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207971816,
+      "stop" : 1589207971816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "PDF header signature not found.",
+    "statusTrace" : "iTextSharp.text.exceptions.InvalidPdfException: PDF header signature not found.\r\n   at iTextSharp.text.pdf.PdfReader..ctor(IRandomAccessSource byteSource, Boolean partialRead, Byte[] ownerPassword, X509Certificate certificate, ICipherParameters certificateKey, Boolean closeSourceOnConstructorError)\r\n   at iTextSharp.text.pdf.PdfReader..ctor(String filename)\r\n   at cdafn_base.PDFMethods.ExtractTextFromPDF(String pdfFileName) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\Utilities\\PDFMethods.cs:line 159\r\n   at cdafn_base.PDFMethods.FindMatch(Regex regex, String filePath) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\Utilities\\PDFMethods.cs:line 183\r\n   at cdafn_base.StepDefinitions.DynamicsEasyRepoSteps.ThenThePdfFileIsExportedWithTheUpdated(String phonenumber) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyRepoSteps.cs:line 217\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589208283117,
+        "stop" : 1589208300903,
+        "duration" : 17786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589208300903,
+        "stop" : 1589208319297,
+        "duration" : 18394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  updates the account 'Vincent Williams' with phone number '0789355690'",
+      "time" : {
+        "start" : 1589208319297,
+        "stop" : 1589208343859,
+        "duration" : 24562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  creates pdf file",
+      "time" : {
+        "start" : 1589208343859,
+        "stop" : 1589208348425,
+        "duration" : 4566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  the pdf file is exported with the updated '0789355690'",
+      "time" : {
+        "start" : 1589208348425,
+        "stop" : 1589208348552,
+        "duration" : 127
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589208348558,
+      "stop" : 1589208353034,
+      "duration" : 4476
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepo"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "334c5613df89b2ee",
+      "status" : "failed",
+      "statusDetails" : "PDF header signature not found.",
+      "time" : {
+        "start" : 1589207438000,
+        "stop" : 1589207501770,
+        "duration" : 63770
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "8a31d1044a88606b.json",
+  "parameterValues" : [ ]
+}

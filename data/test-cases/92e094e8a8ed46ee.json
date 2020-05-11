@@ -1,0 +1,208 @@
+{
+  "uid" : "92e094e8a8ed46ee",
+  "name" : "01 Add Sales Account",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "01 Add Sales Account",
+  "time" : {
+    "start" : 1589208143470,
+    "stop" : 1589208206280,
+    "duration" : 62810
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589208140951,
+      "stop" : 1589208143413,
+      "duration" : 2462
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207971813,
+      "stop" : 1589207971816,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207971816,
+      "stop" : 1589207971816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589208143470,
+        "stop" : 1589208161040,
+        "duration" : 17570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589208161040,
+        "stop" : 1589208179730,
+        "duration" : 18690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  adds the account 'fdafaf'",
+      "time" : {
+        "start" : 1589208179730,
+        "stop" : 1589208197257,
+        "duration" : 17527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  the new account 'fdafaf' should be added",
+      "time" : {
+        "start" : 1589208197257,
+        "stop" : 1589208206279,
+        "duration" : 9022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589208206280,
+      "stop" : 1589208212751,
+      "duration" : 6471
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepo"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a0fe7da83d237c7",
+      "status" : "failed",
+      "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1589208045898,
+        "stop" : 1589208136659,
+        "duration" : 90761
+      }
+    }, {
+      "uid" : "e4b755eec09f327c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207975075,
+        "stop" : 1589208036874,
+        "duration" : 61799
+      }
+    }, {
+      "uid" : "ec5cd5010b50c1ba",
+      "status" : "failed",
+      "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1589207319059,
+        "stop" : 1589207363099,
+        "duration" : 44040
+      }
+    }, {
+      "uid" : "db3e1f7a6764be93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207243085,
+        "stop" : 1589207310296,
+        "duration" : 67211
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "92e094e8a8ed46ee.json",
+  "parameterValues" : [ ]
+}

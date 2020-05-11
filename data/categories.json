@@ -4,33 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
-      "children" : [ {
-        "name" : "01 Add Sales Account",
-        "uid" : "e90b71c941985da5",
-        "parentUid" : "fa31850c27d8b704fd54541381c66232",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589207319059,
-          "stop" : 1589207363099,
-          "duration" : 44040
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fa31850c27d8b704fd54541381c66232"
-    }, {
       "name" : "PDF header signature not found.",
       "children" : [ {
         "name" : "03 Check update in PDF export",
-        "uid" : "ca72a7ea0a723520",
+        "uid" : "8a31d1044a88606b",
         "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
         "status" : "failed",
         "time" : {
-          "start" : 1589207438000,
-          "stop" : 1589207501770,
-          "duration" : 63770
+          "start" : 1589208283117,
+          "stop" : 1589208348558,
+          "duration" : 65441
         },
         "flaky" : false,
         "newFailed" : false,
