@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92e094e8a8ed46ee",
+      "uid" : "a58fbaca2cfd339",
       "status" : "passed",
       "time" : {
         "start" : 1589208143470,
@@ -28,13 +28,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a31d1044a88606b",
+      "uid" : "55a5063ffd66f59e",
       "status" : "failed",
       "statusDetails" : "PDF header signature not found.",
       "time" : {
         "start" : 1589208283117,
         "stop" : 1589208348558,
         "duration" : 65441
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Vincent Williams\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53119f8cd1ad9de2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589210543847,
+        "stop" : 1589210612314,
+        "duration" : 68467
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"\",null)" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51fe1061dbe38718",
+      "status" : "failed",
+      "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1589210621306,
+        "stop" : 1589210664940,
+        "duration" : 43634
       }
     } ]
   },
@@ -48,12 +87,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2326f9a56842c888",
+      "uid" : "54e3eaa7e66a5e0e",
       "status" : "passed",
       "time" : {
         "start" : 1589208355537,
         "stop" : 1589208422862,
         "duration" : 67325
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"fdafaf\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14f6a64070aab747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589210674035,
+        "stop" : 1589210738336,
+        "duration" : 64301
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._02UpdateSalesAccount(\"Vincent Williams\",\"07412424093\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1af6d9f89b51b2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589210745127,
+        "stop" : 1589210799766,
+        "duration" : 54639
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._04DeleteSalesAccount(\"Vincent Williams\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f598f37b317f25fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589210878899,
+        "stop" : 1589210944153,
+        "duration" : 65254
       }
     } ]
   },
@@ -67,12 +163,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a78c5510d7e07720",
+      "uid" : "2534f80a63d42496",
       "status" : "passed",
       "time" : {
         "start" : 1589208215253,
         "stop" : 1589208274109,
         "duration" : 58856
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d8efc3959e10e73",
+      "status" : "failed",
+      "statusDetails" : "PDF header signature not found.",
+      "time" : {
+        "start" : 1589210808761,
+        "stop" : 1589210870174,
+        "duration" : 61413
       }
     } ]
   }

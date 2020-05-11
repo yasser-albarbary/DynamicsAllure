@@ -1,0 +1,174 @@
+{
+  "uid" : "53119f8cd1ad9de2",
+  "name" : "_01AddSalesAccount(\"Vincent Williams\",null)",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Vincent Williams\",null)",
+  "time" : {
+    "start" : 1589210543847,
+    "stop" : 1589210612314,
+    "duration" : 68467
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589210540309,
+      "stop" : 1589210543775,
+      "duration" : 3466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589210540145,
+      "stop" : 1589210540148,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589210540148,
+      "stop" : 1589210540148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589210543911,
+        "stop" : 1589210560182,
+        "duration" : 16271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589210560184,
+        "stop" : 1589210580967,
+        "duration" : 20783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  adds the account 'Vincent Williams'",
+      "time" : {
+        "start" : 1589210580967,
+        "stop" : 1589210602474,
+        "duration" : 21507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the new account 'Vincent Williams' should be added",
+      "time" : {
+        "start" : 1589210602474,
+        "stop" : 1589210612301,
+        "duration" : 9827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589210612314,
+      "stop" : 1589210618818,
+      "duration" : 6504
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepro"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "53119f8cd1ad9de2.json",
+  "parameterValues" : [ ]
+}

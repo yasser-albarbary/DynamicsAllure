@@ -3,7 +3,7 @@
   "name" : "suites",
   "children" : [ {
     "name" : "01 Add Sales Account",
-    "uid" : "92e094e8a8ed46ee",
+    "uid" : "a58fbaca2cfd339",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ ]
   }, {
     "name" : "02 Update Sales Account",
-    "uid" : "a78c5510d7e07720",
+    "uid" : "2534f80a63d42496",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
     "status" : "passed",
     "time" : {
@@ -29,7 +29,7 @@
     "parameters" : [ ]
   }, {
     "name" : "03 Check update in PDF export",
-    "uid" : "8a31d1044a88606b",
+    "uid" : "55a5063ffd66f59e",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
     "status" : "failed",
     "time" : {
@@ -42,13 +42,91 @@
     "parameters" : [ ]
   }, {
     "name" : "04 Delete sales account",
-    "uid" : "2326f9a56842c888",
+    "uid" : "54e3eaa7e66a5e0e",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
     "status" : "passed",
     "time" : {
       "start" : 1589208355537,
       "stop" : 1589208422862,
       "duration" : 67325
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_01AddSalesAccount(\"Vincent Williams\",null)",
+    "uid" : "53119f8cd1ad9de2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589210543847,
+      "stop" : 1589210612314,
+      "duration" : 68467
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_01AddSalesAccount(\"\",null)",
+    "uid" : "51fe1061dbe38718",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1589210621306,
+      "stop" : 1589210664940,
+      "duration" : 43634
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_01AddSalesAccount(\"fdafaf\",null)",
+    "uid" : "14f6a64070aab747",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589210674035,
+      "stop" : 1589210738336,
+      "duration" : 64301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_02UpdateSalesAccount(\"Vincent Williams\",\"07412424093\",null)",
+    "uid" : "f1af6d9f89b51b2c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589210745127,
+      "stop" : 1589210799766,
+      "duration" : 54639
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
+    "uid" : "8d8efc3959e10e73",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1589210808761,
+      "stop" : 1589210870174,
+      "duration" : 61413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "_04DeleteSalesAccount(\"Vincent Williams\",null)",
+    "uid" : "f598f37b317f25fb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589210878899,
+      "stop" : 1589210944153,
+      "duration" : 65254
     },
     "flaky" : false,
     "newFailed" : false,

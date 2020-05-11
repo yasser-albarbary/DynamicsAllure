@@ -1,0 +1,176 @@
+{
+  "uid" : "690b10a5a9c456f5",
+  "name" : "01 Add Sales Account",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "01 Add Sales Account",
+  "time" : {
+    "start" : 1589207319059,
+    "stop" : 1589207363099,
+    "duration" : 44040
+  },
+  "status" : "failed",
+  "statusMessage" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "NUnit.Framework.AssertionException:   Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message) in C:\\src\\nunit\\nunit\\src\\NUnitFramework\\framework\\Assert.cs:line 394\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\\src\\nunit\\nunit\\src\\NUnitFramework\\framework\\Assert.That.cs:line 248\r\n   at cdafn_base.StepDefinitions.DynamicsEasyRepoSteps.WhenAddsTheAccount(String Name) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyRepoSteps.cs:line 112\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589207316556,
+      "stop" : 1589207319003,
+      "duration" : 2447
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207239879,
+      "stop" : 1589207239882,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589207239882,
+      "stop" : 1589207239883,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "NUnit.Framework.AssertionException:   Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message) in C:\\src\\nunit\\nunit\\src\\NUnitFramework\\framework\\Assert.cs:line 394\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\\src\\nunit\\nunit\\src\\NUnitFramework\\framework\\Assert.That.cs:line 248\r\n   at cdafn_base.StepDefinitions.DynamicsEasyRepoSteps.WhenAddsTheAccount(String Name) in C:\\Users\\Testing\\CSharpAgent\\_work\\3\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyRepoSteps.cs:line 112\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589207319059,
+        "stop" : 1589207334600,
+        "duration" : 15541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589207334600,
+        "stop" : 1589207351911,
+        "duration" : 17311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  adds the account ''",
+      "time" : {
+        "start" : 1589207351911,
+        "stop" : 1589207363089,
+        "duration" : 11178
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the new account '' should be added",
+      "time" : {
+        "start" : 1589207363090,
+        "stop" : 1589207363091,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589207363099,
+      "stop" : 1589207369314,
+      "duration" : 6215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepo"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "690b10a5a9c456f5.json",
+  "parameterValues" : [ ]
+}
