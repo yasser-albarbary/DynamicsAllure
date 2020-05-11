@@ -7,13 +7,13 @@
       "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
         "name" : "01 Add Sales Account (\"\")",
-        "uid" : "60e4d7d22a3c84cc",
+        "uid" : "cdec636e59bd8455",
         "parentUid" : "fa31850c27d8b704fd54541381c66232",
         "status" : "failed",
         "time" : {
-          "start" : 1589212098158,
-          "stop" : 1589212141601,
-          "duration" : 43443
+          "start" : 1589213308158,
+          "stop" : 1589213352541,
+          "duration" : 44383
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "PDF header signature not found.",
       "children" : [ {
         "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-        "uid" : "69c04027de112d06",
+        "uid" : "18f7548d3a6b3329",
         "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
         "status" : "failed",
         "time" : {
-          "start" : 1589212285587,
-          "stop" : 1589212346749,
-          "duration" : 61162
+          "start" : 1589213426912,
+          "stop" : 1589213490800,
+          "duration" : 63888
         },
         "flaky" : false,
         "newFailed" : false,

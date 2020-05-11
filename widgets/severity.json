@@ -1,25 +1,5 @@
 [ {
-  "uid" : "9343136ffbec802a",
-  "name" : "01 Add Sales Account (\"Vincent Williams\")",
-  "time" : {
-    "start" : 1589212026549,
-    "stop" : 1589212091272,
-    "duration" : 64723
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "69c04027de112d06",
-  "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-  "time" : {
-    "start" : 1589212285587,
-    "stop" : 1589212346749,
-    "duration" : 61162
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "855ae438384059bb",
+  "uid" : "f2d6446dde497d73",
   "name" : "01 Add Sales Account (\"fdafaf\")",
   "time" : {
     "start" : 1589212150241,
@@ -29,33 +9,53 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9e34ab2ab79bf755",
-  "name" : "04 Delete sales account (\"Vincent Williams\")",
-  "time" : {
-    "start" : 1589212355495,
-    "stop" : 1589212421775,
-    "duration" : 66280
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eef416ab0680f952",
-  "name" : "02 Update Sales Account (\"Vincent Williams\",\"07412424093\")",
-  "time" : {
-    "start" : 1589212221183,
-    "stop" : 1589212278607,
-    "duration" : 57424
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60e4d7d22a3c84cc",
+  "uid" : "cdec636e59bd8455",
   "name" : "01 Add Sales Account (\"\")",
   "time" : {
-    "start" : 1589212098158,
-    "stop" : 1589212141601,
-    "duration" : 43443
+    "start" : 1589213308158,
+    "stop" : 1589213352541,
+    "duration" : 44383
   },
   "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "18f7548d3a6b3329",
+  "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
+  "time" : {
+    "start" : 1589213426912,
+    "stop" : 1589213490800,
+    "duration" : 63888
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "78ce5f3efce3c123",
+  "name" : "01 Add Sales Account (\"Vincent Williams\")",
+  "time" : {
+    "start" : 1589213183577,
+    "stop" : 1589213247414,
+    "duration" : 63837
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4ab195a80b4e8e6",
+  "name" : "02 Update Sales Account (\"Vincent Williams\",\"07412424093\")",
+  "time" : {
+    "start" : 1589213361279,
+    "stop" : 1589213418149,
+    "duration" : 56870
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "5d67f2bcf1d0c2d1",
+  "name" : "04 Delete sales account (\"Vincent Williams\")",
+  "time" : {
+    "start" : 1589213499809,
+    "stop" : 1589213563436,
+    "duration" : 63627
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
