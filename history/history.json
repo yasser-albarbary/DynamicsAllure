@@ -1,0 +1,80 @@
+{
+  "01 Add Sales Account" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e90b71c941985da5",
+      "status" : "failed",
+      "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1589207319059,
+        "stop" : 1589207363099,
+        "duration" : 44040
+      }
+    } ]
+  },
+  "03 Check update in PDF export" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca72a7ea0a723520",
+      "status" : "failed",
+      "statusDetails" : "PDF header signature not found.",
+      "time" : {
+        "start" : 1589207438000,
+        "stop" : 1589207501770,
+        "duration" : 63770
+      }
+    } ]
+  },
+  "04 Delete sales account" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68459d5790307f3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207510701,
+        "stop" : 1589207574369,
+        "duration" : 63668
+      }
+    } ]
+  },
+  "02 Update Sales Account" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ae805b2f9c60e6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207372046,
+        "stop" : 1589207429321,
+        "duration" : 57275
+      }
+    } ]
+  }
+}

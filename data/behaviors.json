@@ -1,0 +1,61 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "DynamicsEasyRepo",
+    "children" : [ {
+      "name" : "01 Add Sales Account",
+      "uid" : "e90b71c941985da5",
+      "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589207319059,
+        "stop" : 1589207363099,
+        "duration" : 44040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "02 Update Sales Account",
+      "uid" : "1ae805b2f9c60e6e",
+      "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207372046,
+        "stop" : 1589207429321,
+        "duration" : 57275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "03 Check update in PDF export",
+      "uid" : "ca72a7ea0a723520",
+      "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589207438000,
+        "stop" : 1589207501770,
+        "duration" : 63770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "04 Delete sales account",
+      "uid" : "68459d5790307f3d",
+      "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589207510701,
+        "stop" : 1589207574369,
+        "duration" : 63668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6de518a74cba172f9a2d8e054f19fd36"
+  } ]
+}
