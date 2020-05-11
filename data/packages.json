@@ -2,131 +2,79 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "01 Add Sales Account",
-    "uid" : "a58fbaca2cfd339",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1589208143470,
-      "stop" : 1589208206280,
-      "duration" : 62810
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "02 Update Sales Account",
-    "uid" : "2534f80a63d42496",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1589208215253,
-      "stop" : 1589208274109,
-      "duration" : 58856
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "03 Check update in PDF export",
-    "uid" : "55a5063ffd66f59e",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "failed",
-    "time" : {
-      "start" : 1589208283117,
-      "stop" : 1589208348558,
-      "duration" : 65441
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "04 Delete sales account",
-    "uid" : "54e3eaa7e66a5e0e",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1589208355537,
-      "stop" : 1589208422862,
-      "duration" : 67325
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "_01AddSalesAccount(\"Vincent Williams\",null)",
-    "uid" : "53119f8cd1ad9de2",
+    "uid" : "be3bcc01c46e2e19",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1589210543847,
-      "stop" : 1589210612314,
-      "duration" : 68467
+      "start" : 1589211177174,
+      "stop" : 1589211242719,
+      "duration" : 65545
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "_01AddSalesAccount(\"\",null)",
-    "uid" : "51fe1061dbe38718",
+    "uid" : "ea3c474990691453",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1589210621306,
-      "stop" : 1589210664940,
-      "duration" : 43634
+      "start" : 1589211251705,
+      "stop" : 1589211299003,
+      "duration" : 47298
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "_01AddSalesAccount(\"fdafaf\",null)",
-    "uid" : "14f6a64070aab747",
+    "uid" : "f879a0acc488bb1e",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1589210674035,
-      "stop" : 1589210738336,
-      "duration" : 64301
+      "start" : 1589211305865,
+      "stop" : 1589211370099,
+      "duration" : 64234
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "_02UpdateSalesAccount(\"Vincent Williams\",\"07412424093\",null)",
-    "uid" : "f1af6d9f89b51b2c",
+    "uid" : "39a1773b3f68790e",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1589210745127,
-      "stop" : 1589210799766,
-      "duration" : 54639
+      "start" : 1589211380106,
+      "stop" : 1589211445662,
+      "duration" : 65556
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "_03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
-    "uid" : "8d8efc3959e10e73",
+    "uid" : "b3d032c7b7ef1c8",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1589210808761,
-      "stop" : 1589210870174,
-      "duration" : 61413
+      "start" : 1589211454479,
+      "stop" : 1589211519658,
+      "duration" : 65179
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "_04DeleteSalesAccount(\"Vincent Williams\",null)",
-    "uid" : "f598f37b317f25fb",
+    "uid" : "d43df2b1c1cb78a6",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1589210878899,
-      "stop" : 1589210944153,
-      "duration" : 65254
+      "start" : 1589211528467,
+      "stop" : 1589211599514,
+      "duration" : 71047
     },
     "flaky" : false,
     "newFailed" : false,

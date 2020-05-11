@@ -4,52 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "PDF header signature not found.",
-      "children" : [ {
-        "name" : "03 Check update in PDF export",
-        "uid" : "55a5063ffd66f59e",
-        "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589208283117,
-          "stop" : 1589208348558,
-          "duration" : 65441
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "_03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
-        "uid" : "8d8efc3959e10e73",
-        "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589210808761,
-          "stop" : 1589210870174,
-          "duration" : 61413
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4e276051c07b5ceec26acc2f2a60690e"
-    }, {
       "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
         "name" : "_01AddSalesAccount(\"\",null)",
-        "uid" : "51fe1061dbe38718",
+        "uid" : "ea3c474990691453",
         "parentUid" : "fa31850c27d8b704fd54541381c66232",
         "status" : "failed",
         "time" : {
-          "start" : 1589210621306,
-          "stop" : 1589210664940,
-          "duration" : 43634
+          "start" : 1589211251705,
+          "stop" : 1589211299003,
+          "duration" : 47298
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "fa31850c27d8b704fd54541381c66232"
+    }, {
+      "name" : "PDF header signature not found.",
+      "children" : [ {
+        "name" : "_03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
+        "uid" : "b3d032c7b7ef1c8",
+        "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589211454479,
+          "stop" : 1589211519658,
+          "duration" : 65179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e276051c07b5ceec26acc2f2a60690e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
