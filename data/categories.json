@@ -6,14 +6,14 @@
     "children" : [ {
       "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
-        "name" : "_01AddSalesAccount(\"\",null)",
-        "uid" : "ea3c474990691453",
+        "name" : "01 Add Sales Account (\"\")",
+        "uid" : "60e4d7d22a3c84cc",
         "parentUid" : "fa31850c27d8b704fd54541381c66232",
         "status" : "failed",
         "time" : {
-          "start" : 1589211251705,
-          "stop" : 1589211299003,
-          "duration" : 47298
+          "start" : 1589212098158,
+          "stop" : 1589212141601,
+          "duration" : 43443
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,14 +23,14 @@
     }, {
       "name" : "PDF header signature not found.",
       "children" : [ {
-        "name" : "_03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
-        "uid" : "b3d032c7b7ef1c8",
+        "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
+        "uid" : "69c04027de112d06",
         "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
         "status" : "failed",
         "time" : {
-          "start" : 1589211454479,
-          "stop" : 1589211519658,
-          "duration" : 65179
+          "start" : 1589212285587,
+          "stop" : 1589212346749,
+          "duration" : 61162
         },
         "flaky" : false,
         "newFailed" : false,

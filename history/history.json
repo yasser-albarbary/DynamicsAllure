@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "be3bcc01c46e2e19",
+      "uid" : "9343136ffbec802a",
       "status" : "passed",
       "time" : {
-        "start" : 1589211177174,
-        "stop" : 1589211242719,
-        "duration" : 65545
+        "start" : 1589212026549,
+        "stop" : 1589212091272,
+        "duration" : 64723
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea3c474990691453",
+      "uid" : "60e4d7d22a3c84cc",
       "status" : "failed",
       "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
       "time" : {
-        "start" : 1589211251705,
-        "stop" : 1589211299003,
-        "duration" : 47298
+        "start" : 1589212098158,
+        "stop" : 1589212141601,
+        "duration" : 43443
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f879a0acc488bb1e",
+      "uid" : "855ae438384059bb",
       "status" : "passed",
       "time" : {
-        "start" : 1589211305865,
-        "stop" : 1589211370099,
-        "duration" : 64234
+        "start" : 1589212150241,
+        "stop" : 1589212214093,
+        "duration" : 63852
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39a1773b3f68790e",
+      "uid" : "eef416ab0680f952",
       "status" : "passed",
       "time" : {
-        "start" : 1589211380106,
-        "stop" : 1589211445662,
-        "duration" : 65556
+        "start" : 1589212221183,
+        "stop" : 1589212278607,
+        "duration" : 57424
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d43df2b1c1cb78a6",
+      "uid" : "9e34ab2ab79bf755",
       "status" : "passed",
       "time" : {
-        "start" : 1589211528467,
-        "stop" : 1589211599514,
-        "duration" : 71047
+        "start" : 1589212355495,
+        "stop" : 1589212421775,
+        "duration" : 66280
       }
     } ]
   },
@@ -105,13 +105,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3d032c7b7ef1c8",
+      "uid" : "69c04027de112d06",
       "status" : "failed",
       "statusDetails" : "PDF header signature not found.",
       "time" : {
-        "start" : 1589211454479,
-        "stop" : 1589211519658,
-        "duration" : 65179
+        "start" : 1589212285587,
+        "stop" : 1589212346749,
+        "duration" : 61162
       }
     } ]
   }
