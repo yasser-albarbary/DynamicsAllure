@@ -4,12 +4,12 @@
     "uid" : "7a096b626fa21e024f0dc579b08891d8",
     "name" : "DynamicsEasyRepro",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 9
+      "total" : 3
     }
   } ]
 }

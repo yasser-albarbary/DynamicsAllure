@@ -1,100 +1,4 @@
 {
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Vincent Williams\",null)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "28f3738258978c79",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589461846526,
-        "stop" : 1589461918539,
-        "duration" : 72013
-      }
-    } ]
-  },
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"fdafaf\",null)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b16bfb735dd92ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589212150241,
-        "stop" : 1589212214093,
-        "duration" : 63852
-      }
-    } ]
-  },
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"\",null)" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f40496446b5f96e8",
-      "status" : "failed",
-      "statusDetails" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
-      "time" : {
-        "start" : 1589213308158,
-        "stop" : 1589213352541,
-        "duration" : 44383
-      }
-    } ]
-  },
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._02UpdateSalesAccount(\"Vincent Williams\",\"07412424093\",null)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1a46e954590763df",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589213361279,
-        "stop" : 1589213418149,
-        "duration" : 56870
-      }
-    } ]
-  },
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._04DeleteSalesAccount(\"Vincent Williams\",null)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a8d2f29a1fcfca56",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589213499809,
-        "stop" : 1589213563436,
-        "duration" : 63627
-      }
-    } ]
-  },
   "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Test2\",\"07412424093\",null)" : {
     "statistic" : {
       "failed" : 0,
@@ -105,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4acc4d3f43788c25",
+      "uid" : "947d4205291f5b03",
       "status" : "passed",
       "time" : {
-        "start" : 1589473014701,
-        "stop" : 1589473102563,
-        "duration" : 87862
-      }
-    } ]
-  },
-  "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a7d57a32ead9c58",
-      "status" : "failed",
-      "statusDetails" : "PDF header signature not found.",
-      "time" : {
-        "start" : 1589213426912,
-        "stop" : 1589213490800,
-        "duration" : 63888
+        "start" : 1589474004783,
+        "stop" : 1589474095783,
+        "duration" : 91000
       }
     } ]
   },
@@ -144,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca3495ae15403dfa",
+      "uid" : "a750d9bf01d0994d",
       "status" : "failed",
       "statusDetails" : "An error occur trying to open the record at position 0",
       "time" : {
-        "start" : 1589473112384,
-        "stop" : 1589473196331,
-        "duration" : 83947
+        "start" : 1589474108858,
+        "stop" : 1589474192927,
+        "duration" : 84069
       }
     } ]
   },
@@ -164,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab22e1e91738ae92",
+      "uid" : "f58eb172d46d44b1",
       "status" : "passed",
       "time" : {
-        "start" : 1589472916135,
-        "stop" : 1589473004863,
-        "duration" : 88728
+        "start" : 1589473904241,
+        "stop" : 1589473994764,
+        "duration" : 90523
       }
     } ]
   }

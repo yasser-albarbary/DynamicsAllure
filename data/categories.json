@@ -4,50 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
-      "children" : [ {
-        "name" : "01 Add Sales Account (\"\")",
-        "uid" : "f40496446b5f96e8",
-        "parentUid" : "fa31850c27d8b704fd54541381c66232",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589213308158,
-          "stop" : 1589213352541,
-          "duration" : 44383
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fa31850c27d8b704fd54541381c66232"
-    }, {
-      "name" : "PDF header signature not found.",
-      "children" : [ {
-        "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-        "uid" : "a7d57a32ead9c58",
-        "parentUid" : "4e276051c07b5ceec26acc2f2a60690e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589213426912,
-          "stop" : 1589213490800,
-          "duration" : 63888
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4e276051c07b5ceec26acc2f2a60690e"
-    }, {
       "name" : "An error occur trying to open the record at position 0",
       "children" : [ {
         "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-        "uid" : "ca3495ae15403dfa",
+        "uid" : "a750d9bf01d0994d",
         "parentUid" : "792a38a97c115e5ec7885379628df2a7",
         "status" : "failed",
         "time" : {
-          "start" : 1589473112384,
-          "stop" : 1589473196331,
-          "duration" : 83947
+          "start" : 1589474108858,
+          "stop" : 1589474192927,
+          "duration" : 84069
         },
         "flaky" : false,
         "newFailed" : false,
