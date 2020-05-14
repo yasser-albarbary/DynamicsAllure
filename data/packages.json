@@ -3,7 +3,7 @@
   "name" : "packages",
   "children" : [ {
     "name" : "01 Add Sales Account (\"fdafaf\")",
-    "uid" : "f2d6446dde497d73",
+    "uid" : "b16bfb735dd92ad8",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -15,21 +15,8 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "01 Add Sales Account (\"Vincent Williams\")",
-    "uid" : "78ce5f3efce3c123",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1589213183577,
-      "stop" : 1589213247414,
-      "duration" : 63837
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "01 Add Sales Account (\"\")",
-    "uid" : "cdec636e59bd8455",
+    "uid" : "f40496446b5f96e8",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
@@ -42,7 +29,7 @@
     "parameters" : [ ]
   }, {
     "name" : "02 Update Sales Account (\"Vincent Williams\",\"07412424093\")",
-    "uid" : "c4ab195a80b4e8e6",
+    "uid" : "1a46e954590763df",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -55,7 +42,7 @@
     "parameters" : [ ]
   }, {
     "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-    "uid" : "18f7548d3a6b3329",
+    "uid" : "a7d57a32ead9c58",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
@@ -68,13 +55,65 @@
     "parameters" : [ ]
   }, {
     "name" : "04 Delete sales account (\"Vincent Williams\")",
-    "uid" : "5d67f2bcf1d0c2d1",
+    "uid" : "a8d2f29a1fcfca56",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
       "start" : 1589213499809,
       "stop" : 1589213563436,
       "duration" : 63627
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "01 Add Sales Account (\"Vincent Williams\")",
+    "uid" : "28f3738258978c79",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589461846526,
+      "stop" : 1589461918539,
+      "duration" : 72013
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
+    "uid" : "ab22e1e91738ae92",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589472916135,
+      "stop" : 1589473004863,
+      "duration" : 88728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "01 Add Sales Account (\"Test2\",\"07412424093\")",
+    "uid" : "4acc4d3f43788c25",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589473014701,
+      "stop" : 1589473102563,
+      "duration" : 87862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
+    "uid" : "ca3495ae15403dfa",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1589473112384,
+      "stop" : 1589473196331,
+      "duration" : 83947
     },
     "flaky" : false,
     "newFailed" : false,

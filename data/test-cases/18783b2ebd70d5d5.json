@@ -1,0 +1,217 @@
+{
+  "uid" : "18783b2ebd70d5d5",
+  "name" : "01 Add Sales Account (\"Vincent Williams\")",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Vincent Williams\",null)",
+  "time" : {
+    "start" : 1589461846526,
+    "stop" : 1589461918539,
+    "duration" : 72013
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589461843384,
+      "stop" : 1589461846462,
+      "duration" : 3078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589461843336,
+      "stop" : 1589461843338,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589461843338,
+      "stop" : 1589461843338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589461846534,
+        "stop" : 1589461864467,
+        "duration" : 17933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589461864468,
+        "stop" : 1589461886309,
+        "duration" : 21841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  adds the account 'Vincent Williams'",
+      "time" : {
+        "start" : 1589461886309,
+        "stop" : 1589461909053,
+        "duration" : 22744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the new account 'Vincent Williams' should be added",
+      "time" : {
+        "start" : 1589461909053,
+        "stop" : 1589461918527,
+        "duration" : 9474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589461918539,
+      "stop" : 1589461923185,
+      "duration" : 4646
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepro"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "ff9664d19180662e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589461254195,
+        "stop" : 1589461327319,
+        "duration" : 73124
+      }
+    }, {
+      "uid" : "ea781bc3cf42d04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589459722378,
+        "stop" : 1589459906928,
+        "duration" : 184550
+      }
+    }, {
+      "uid" : "c2eaf66a4b586053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589213183577,
+        "stop" : 1589213247414,
+        "duration" : 63837
+      }
+    }, {
+      "uid" : "974d32aea4d09ee8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589212026549,
+        "stop" : 1589212091272,
+        "duration" : 64723
+      }
+    }, {
+      "uid" : "e71bcc5e02b66200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589211177174,
+        "stop" : 1589211242719,
+        "duration" : 65545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "18783b2ebd70d5d5.json",
+  "parameterValues" : [ ]
+}
