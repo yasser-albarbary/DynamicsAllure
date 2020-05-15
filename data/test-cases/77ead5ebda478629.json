@@ -1,0 +1,235 @@
+{
+  "uid" : "77ead5ebda478629",
+  "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Test\",\"07342928235\",null)",
+  "time" : {
+    "start" : 1589551683002,
+    "stop" : 1589551754174,
+    "duration" : 71172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589551679562,
+      "stop" : 1589551682805,
+      "duration" : 3243
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589551679480,
+      "stop" : 1589551679483,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589551679483,
+      "stop" : 1589551679483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589551683085,
+        "stop" : 1589551700193,
+        "duration" : 17108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589551700195,
+        "stop" : 1589551722458,
+        "duration" : 22263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  adds the account 'Test' with the number '07342928235'",
+      "time" : {
+        "start" : 1589551722458,
+        "stop" : 1589551744641,
+        "duration" : 22183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  the new account 'Test' should be added",
+      "time" : {
+        "start" : 1589551744641,
+        "stop" : 1589551754157,
+        "duration" : 9516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589551754174,
+      "stop" : 1589551760721,
+      "duration" : 6547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepro"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "ff033e24917bf237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589549173743,
+        "stop" : 1589549245416,
+        "duration" : 71673
+      }
+    }, {
+      "uid" : "b31c1bc3adf4a45b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589546439262,
+        "stop" : 1589546510056,
+        "duration" : 70794
+      }
+    }, {
+      "uid" : "e7f1c477a4edcd16",
+      "status" : "failed",
+      "statusDetails" : "Access to the path 'D:\\CDAF_DynamicsCore\\csv_test_data' is denied.",
+      "time" : {
+        "start" : 1589545759772,
+        "stop" : 1589545822230,
+        "duration" : 62458
+      }
+    }, {
+      "uid" : "203164fbc814a9dd",
+      "status" : "failed",
+      "statusDetails" : "Access to the path 'D:\\CSVTestData' is denied.",
+      "time" : {
+        "start" : 1589544824523,
+        "stop" : 1589544884757,
+        "duration" : 60234
+      }
+    }, {
+      "uid" : "eb9db9f1e14dd444",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589541261018,
+        "stop" : 1589541333308,
+        "duration" : 72290
+      }
+    }, {
+      "uid" : "48fe7d47e24ae503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589538323669,
+        "stop" : 1589538400817,
+        "duration" : 77148
+      }
+    }, {
+      "uid" : "103257ecccc7ce48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589534600244,
+        "stop" : 1589534673194,
+        "duration" : 72950
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "77ead5ebda478629.json",
+  "parameterValues" : [ ]
+}
