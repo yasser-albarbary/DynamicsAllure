@@ -2,111 +2,68 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "DynamicsEasyRepro",
-    "children" : [ {
-      "name" : "01 Add Sales Account (\"Test2\",\"07412424093\")",
-      "uid" : "f1804c07a158ffda",
-      "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589551763315,
-        "stop" : 1589551829918,
-        "duration" : 66603
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-      "uid" : "6564f36f6191b90d",
-      "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
-      "status" : "failed",
-      "time" : {
-        "start" : 1589551839021,
-        "stop" : 1589551907921,
-        "duration" : 68900
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
-      "uid" : "a3b8cd60fe7b694d",
-      "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1589553939666,
-        "stop" : 1589554014859,
-        "duration" : 75193
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "7a096b626fa21e024f0dc579b08891d8"
-  }, {
     "name" : "DynamicsEasyRepo",
     "children" : [ {
-      "name" : "01 Add Sales Account (\"Vincent Williams\")",
-      "uid" : "c2a90fc8496a86d8",
+      "name" : "01 Add Sales Account (\"Vincent Williams\",\"07412424093\")",
+      "uid" : "af41fd9d6f0c5f7f",
       "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1589555852415,
-        "stop" : 1589555889574,
-        "duration" : 37159
+        "start" : 1589557507884,
+        "stop" : 1589557580368,
+        "duration" : 72484
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "01 Add Sales Account (\"\")",
-      "uid" : "69a3b4f15df12786",
+      "name" : "01 Add Sales Account (\"\",\"07412424094\")",
+      "uid" : "d6ccf85394890a4f",
       "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
       "status" : "failed",
       "time" : {
-        "start" : 1589555896672,
-        "stop" : 1589555930671,
-        "duration" : 33999
+        "start" : 1589557589631,
+        "stop" : 1589557639933,
+        "duration" : 50302
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "02 Update Sales Account (\"Vincent Williams\",\"07412424093\")",
-      "uid" : "9963666f1ee0573f",
+      "uid" : "4e080039ecbe06a",
       "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
       "status" : "passed",
       "time" : {
-        "start" : 1589555939747,
-        "stop" : 1589555994526,
-        "duration" : 54779
+        "start" : 1589557649005,
+        "stop" : 1589557711352,
+        "duration" : 62347
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-      "uid" : "2883677fe4898d9",
+      "uid" : "d9c859abaa01c957",
       "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
       "status" : "failed",
       "time" : {
-        "start" : 1589556001590,
-        "stop" : 1589556064394,
-        "duration" : 62804
+        "start" : 1589557720462,
+        "stop" : 1589557786272,
+        "duration" : 65810
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "04 Delete sales account (\"Vincent Williams\")",
-      "uid" : "ed32c8f9a42f0c01",
+      "uid" : "750e7ef22268bc5b",
       "parentUid" : "6de518a74cba172f9a2d8e054f19fd36",
       "status" : "failed",
       "time" : {
-        "start" : 1589556073195,
-        "stop" : 1589556155452,
-        "duration" : 82257
+        "start" : 1589557795047,
+        "stop" : 1589557878016,
+        "duration" : 82969
       },
       "flaky" : false,
       "newFailed" : false,

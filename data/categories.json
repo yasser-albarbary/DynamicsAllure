@@ -4,50 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "An error occur trying to open the record at position 0",
+      "name" : "  Required fields must be filled in.\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
-        "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-        "uid" : "6564f36f6191b90d",
-        "parentUid" : "792a38a97c115e5ec7885379628df2a7",
+        "name" : "01 Add Sales Account (\"\",\"07412424094\")",
+        "uid" : "d6ccf85394890a4f",
+        "parentUid" : "fa31850c27d8b704fd54541381c66232",
         "status" : "failed",
         "time" : {
-          "start" : 1589551839021,
-          "stop" : 1589551907921,
-          "duration" : 68900
+          "start" : 1589557589631,
+          "stop" : 1589557639933,
+          "duration" : 50302
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "792a38a97c115e5ec7885379628df2a7"
-    }, {
-      "name" : "Index and length must refer to a location within the string.\r\nParameter name: length",
-      "children" : [ {
-        "name" : "01 Add Sales Account (\"\")",
-        "uid" : "69a3b4f15df12786",
-        "parentUid" : "40f249152007cd23c6444871f4aea4e6",
-        "status" : "failed",
-        "time" : {
-          "start" : 1589555896672,
-          "stop" : 1589555930671,
-          "duration" : 33999
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "40f249152007cd23c6444871f4aea4e6"
+      "uid" : "fa31850c27d8b704fd54541381c66232"
     }, {
       "name" : "No command with the name 'Create PDF' exists inside of Commandbar.",
       "children" : [ {
         "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
-        "uid" : "2883677fe4898d9",
+        "uid" : "d9c859abaa01c957",
         "parentUid" : "3dfc9ad46692dd39ecd5fd237a7f448c",
         "status" : "failed",
         "time" : {
-          "start" : 1589556001590,
-          "stop" : 1589556064394,
-          "duration" : 62804
+          "start" : 1589557720462,
+          "stop" : 1589557786272,
+          "duration" : 65810
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +41,13 @@
       "name" : "Delete Button is not available",
       "children" : [ {
         "name" : "04 Delete sales account (\"Vincent Williams\")",
-        "uid" : "ed32c8f9a42f0c01",
+        "uid" : "750e7ef22268bc5b",
         "parentUid" : "b0cfb3b237caa3a75ffddf6b8efb6b81",
         "status" : "failed",
         "time" : {
-          "start" : 1589556073195,
-          "stop" : 1589556155452,
-          "duration" : 82257
+          "start" : 1589557795047,
+          "stop" : 1589557878016,
+          "duration" : 82969
         },
         "flaky" : false,
         "newFailed" : false,
@@ -73,26 +56,5 @@
       "uid" : "b0cfb3b237caa3a75ffddf6b8efb6b81"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "No matching step definition found for the step",
-      "children" : [ {
-        "name" : "01 Add Sales Account (\"Vincent Williams\")",
-        "uid" : "c2a90fc8496a86d8",
-        "parentUid" : "d5df17c7a9f7f5d15dfce9d60c1af467",
-        "status" : "broken",
-        "time" : {
-          "start" : 1589555852415,
-          "stop" : 1589555889574,
-          "duration" : 37159
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d5df17c7a9f7f5d15dfce9d60c1af467"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

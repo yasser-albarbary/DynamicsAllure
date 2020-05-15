@@ -1,26 +1,15 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
     "uid" : "6de518a74cba172f9a2d8e054f19fd36",
     "name" : "DynamicsEasyRepo",
     "statistic" : {
       "failed" : 3,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
-    "uid" : "7a096b626fa21e024f0dc579b08891d8",
-    "name" : "DynamicsEasyRepro",
-    "statistic" : {
-      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 5
     }
   } ]
 }
