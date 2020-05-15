@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Thu May 14 16:35:08 GMT 2020","Thu May 14 16:36:32 GMT 2020","84069","","","","","","02 Update Sales Account (""Failing Test"",""07412424093"")",""
-"passed","Thu May 14 16:31:44 GMT 2020","Thu May 14 16:33:14 GMT 2020","90523","","","","","","01 Add Sales Account (""Test"",""07342928235"")",""
-"passed","Thu May 14 16:33:24 GMT 2020","Thu May 14 16:34:55 GMT 2020","91000","","","","","","01 Add Sales Account (""Test2"",""07412424093"")",""
+"failed","Fri May 15 10:28:08 GMT 2020","Fri May 15 10:29:19 GMT 2020","70430","","","","","","02 Update Sales Account (""Failing Test"",""07412424093"")",""
+"passed","Fri May 15 10:25:23 GMT 2020","Fri May 15 10:26:40 GMT 2020","77148","","","","","","01 Add Sales Account (""Test"",""07342928235"")",""
+"passed","Fri May 15 10:26:50 GMT 2020","Fri May 15 10:28:00 GMT 2020","70259","","","","","","01 Add Sales Account (""Test2"",""07412424093"")",""

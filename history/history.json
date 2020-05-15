@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "947d4205291f5b03",
+      "uid" : "af73e5c98fa54985",
       "status" : "passed",
       "time" : {
-        "start" : 1589474004783,
-        "stop" : 1589474095783,
-        "duration" : 91000
+        "start" : 1589538410167,
+        "stop" : 1589538480426,
+        "duration" : 70259
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a750d9bf01d0994d",
+      "uid" : "893f9a8f64024eda",
       "status" : "failed",
       "statusDetails" : "An error occur trying to open the record at position 0",
       "time" : {
-        "start" : 1589474108858,
-        "stop" : 1589474192927,
-        "duration" : 84069
+        "start" : 1589538488675,
+        "stop" : 1589538559105,
+        "duration" : 70430
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f58eb172d46d44b1",
+      "uid" : "ad415333c26395e8",
       "status" : "passed",
       "time" : {
-        "start" : 1589473904241,
-        "stop" : 1589473994764,
-        "duration" : 90523
+        "start" : 1589538323669,
+        "stop" : 1589538400817,
+        "duration" : 77148
       }
     } ]
   }

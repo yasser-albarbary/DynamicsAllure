@@ -7,13 +7,13 @@
       "name" : "An error occur trying to open the record at position 0",
       "children" : [ {
         "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-        "uid" : "a750d9bf01d0994d",
+        "uid" : "893f9a8f64024eda",
         "parentUid" : "792a38a97c115e5ec7885379628df2a7",
         "status" : "failed",
         "time" : {
-          "start" : 1589474108858,
-          "stop" : 1589474192927,
-          "duration" : 84069
+          "start" : 1589538488675,
+          "stop" : 1589538559105,
+          "duration" : 70430
         },
         "flaky" : false,
         "newFailed" : false,

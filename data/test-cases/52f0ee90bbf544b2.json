@@ -1,0 +1,185 @@
+{
+  "uid" : "52f0ee90bbf544b2",
+  "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
+  "fullName" : "02 Update Sales Account",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._02UpdateSalesAccount(\"Failing Test\",\"07412424093\",null)",
+  "time" : {
+    "start" : 1589534762614,
+    "stop" : 1589534830933,
+    "duration" : 68319
+  },
+  "status" : "failed",
+  "statusMessage" : "An error occur trying to open the record at position 0",
+  "statusTrace" : "System.InvalidOperationException: An error occur trying to open the record at position 0\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.<>c__DisplayClass52_0.<WaitUntilClickable>b__0()\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntil(ISearchContext driver, Func`2 searchFunc, Nullable`1 timeout, Action`1 successCallback, Action failureCallback)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntilClickable(ISearchContext driver, By by, Nullable`1 timeout, Action`1 successCallback, Action failureCallback)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntilClickable(ISearchContext driver, By by, Nullable`1 timeout, Action`1 successCallback, String exceptionMessage)\r\n   at Microsoft.Dynamics365.UIAutomation.Api.UCI.WebClient.<>c__DisplayClass67_0.<OpenRecord>b__0(IWebDriver driver)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserCommand`1.Execute[T1,T2,T3,T4,T5,T6,T7,T8,T9](IWebDriver driver, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserPage.Execute[TResult](BrowserCommandOptions options, Func`2 delegate)\r\n   at cdafn_base.PageObjects.Dynamics.SalesHub.Accounts.openAccount(String Name) in C:\\Users\\Testing\\CSharpAgent\\_work\\4\\s\\cdafn-base\\PageObjects\\Dynamics\\SalesHub\\Accounts.cs:line 39\r\n   at lambda_method(Closure , IContextManager , String , String )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589534760027,
+      "stop" : 1589534762500,
+      "duration" : 2473
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589534595933,
+      "stop" : 1589534595936,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589534595936,
+      "stop" : 1589534595936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "An error occur trying to open the record at position 0",
+    "statusTrace" : "System.InvalidOperationException: An error occur trying to open the record at position 0\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.<>c__DisplayClass52_0.<WaitUntilClickable>b__0()\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntil(ISearchContext driver, Func`2 searchFunc, Nullable`1 timeout, Action`1 successCallback, Action failureCallback)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntilClickable(ISearchContext driver, By by, Nullable`1 timeout, Action`1 successCallback, Action failureCallback)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.SeleniumExtensions.WaitUntilClickable(ISearchContext driver, By by, Nullable`1 timeout, Action`1 successCallback, String exceptionMessage)\r\n   at Microsoft.Dynamics365.UIAutomation.Api.UCI.WebClient.<>c__DisplayClass67_0.<OpenRecord>b__0(IWebDriver driver)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserCommand`1.Execute[T1,T2,T3,T4,T5,T6,T7,T8,T9](IWebDriver driver, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserPage.Execute[TResult](BrowserCommandOptions options, Func`2 delegate)\r\n   at cdafn_base.PageObjects.Dynamics.SalesHub.Accounts.openAccount(String Name) in C:\\Users\\Testing\\CSharpAgent\\_work\\4\\s\\cdafn-base\\PageObjects\\Dynamics\\SalesHub\\Accounts.cs:line 39\r\n   at lambda_method(Closure , IContextManager , String , String )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589534762614,
+        "stop" : 1589534778176,
+        "duration" : 15562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589534778176,
+        "stop" : 1589534795787,
+        "duration" : 17611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  updates the account 'Failing Test' with phone number '07412424093'",
+      "time" : {
+        "start" : 1589534795787,
+        "stop" : 1589534830788,
+        "duration" : 35001
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  the account should be updated with phone number '07412424093'",
+      "time" : {
+        "start" : 1589534830913,
+        "stop" : 1589534830915,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589534830933,
+      "stop" : 1589534838312,
+      "duration" : 7379
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepro"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "52f0ee90bbf544b2.json",
+  "parameterValues" : [ ]
+}

@@ -5,39 +5,39 @@
     "name" : "DynamicsEasyRepro",
     "children" : [ {
       "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
-      "uid" : "f58eb172d46d44b1",
+      "uid" : "ad415333c26395e8",
       "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
       "status" : "passed",
       "time" : {
-        "start" : 1589473904241,
-        "stop" : 1589473994764,
-        "duration" : 90523
+        "start" : 1589538323669,
+        "stop" : 1589538400817,
+        "duration" : 77148
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "01 Add Sales Account (\"Test2\",\"07412424093\")",
-      "uid" : "947d4205291f5b03",
+      "uid" : "af73e5c98fa54985",
       "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
       "status" : "passed",
       "time" : {
-        "start" : 1589474004783,
-        "stop" : 1589474095783,
-        "duration" : 91000
+        "start" : 1589538410167,
+        "stop" : 1589538480426,
+        "duration" : 70259
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-      "uid" : "a750d9bf01d0994d",
+      "uid" : "893f9a8f64024eda",
       "parentUid" : "7a096b626fa21e024f0dc579b08891d8",
       "status" : "failed",
       "time" : {
-        "start" : 1589474108858,
-        "stop" : 1589474192927,
-        "duration" : 84069
+        "start" : 1589538488675,
+        "stop" : 1589538559105,
+        "duration" : 70430
       },
       "flaky" : false,
       "newFailed" : false,
