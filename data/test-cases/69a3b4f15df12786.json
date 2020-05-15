@@ -1,0 +1,182 @@
+{
+  "uid" : "69a3b4f15df12786",
+  "name" : "01 Add Sales Account (\"\")",
+  "fullName" : "01 Add Sales Account",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._01AddSalesAccount(\"\",null)",
+  "time" : {
+    "start" : 1589555896672,
+    "stop" : 1589555930671,
+    "duration" : 33999
+  },
+  "status" : "failed",
+  "statusMessage" : "Index and length must refer to a location within the string.\r\nParameter name: length",
+  "statusTrace" : "System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.\r\nParameter name: length\r\n   at System.String.Substring(Int32 startIndex, Int32 length)\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepTextAnalyzer.Analyze(String stepText, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepTextAnalyzer.cs:line 58\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepDefinitionSkeletonProvider.Analyze(StepInstance stepInstance, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepDefinitionSkeletonProvider.cs:line 64\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(ProgrammingLanguage language, StepInstance stepInstance, StepDefinitionSkeletonStyle style, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepDefinitionSkeletonProvider.cs:line 50\r\n   at TechTalk.SpecFlow.Tracing.TestTracer.TraceNoMatchingStepDefinition(StepInstance stepInstance, ProgrammingLanguage targetLanguage, CultureInfo bindingCulture, List`1 matchesWithoutScopeCheck) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Tracing\\TestTracer.cs:line 124\r\n   at Allure.SpecFlowPlugin.AllureTestTracerWrapper.TechTalk.SpecFlow.Tracing.ITestTracer.TraceNoMatchingStepDefinition(StepInstance stepInstance, ProgrammingLanguage targetLanguage, CultureInfo bindingCulture, List`1 matchesWithoutScopeCheck)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetStepMatch(StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 492\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 407",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589555894128,
+      "stop" : 1589555896620,
+      "duration" : 2492
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589555849127,
+      "stop" : 1589555849130,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589555849130,
+      "stop" : 1589555849130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Index and length must refer to a location within the string.\r\nParameter name: length",
+    "statusTrace" : "System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.\r\nParameter name: length\r\n   at System.String.Substring(Int32 startIndex, Int32 length)\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepTextAnalyzer.Analyze(String stepText, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepTextAnalyzer.cs:line 58\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepDefinitionSkeletonProvider.Analyze(StepInstance stepInstance, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepDefinitionSkeletonProvider.cs:line 64\r\n   at TechTalk.SpecFlow.BindingSkeletons.StepDefinitionSkeletonProvider.GetStepDefinitionSkeleton(ProgrammingLanguage language, StepInstance stepInstance, StepDefinitionSkeletonStyle style, CultureInfo bindingCulture) in D:\\a\\1\\s\\TechTalk.SpecFlow\\BindingSkeletons\\StepDefinitionSkeletonProvider.cs:line 50\r\n   at TechTalk.SpecFlow.Tracing.TestTracer.TraceNoMatchingStepDefinition(StepInstance stepInstance, ProgrammingLanguage targetLanguage, CultureInfo bindingCulture, List`1 matchesWithoutScopeCheck) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Tracing\\TestTracer.cs:line 124\r\n   at Allure.SpecFlowPlugin.AllureTestTracerWrapper.TechTalk.SpecFlow.Tracing.ITestTracer.TraceNoMatchingStepDefinition(StepInstance stepInstance, ProgrammingLanguage targetLanguage, CultureInfo bindingCulture, List`1 matchesWithoutScopeCheck)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetStepMatch(StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 492\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 407",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589555896672,
+        "stop" : 1589555912241,
+        "duration" : 15569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589555912241,
+        "stop" : 1589555930637,
+        "duration" : 18396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  adds the account ''",
+      "time" : {
+        "start" : 1589555930637,
+        "stop" : 1589555930639,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the new account '' should be added",
+      "time" : {
+        "start" : 1589555930665,
+        "stop" : 1589555930665,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589555930671,
+      "stop" : 1589555937190,
+      "duration" : 6519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepo"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "69a3b4f15df12786.json",
+  "parameterValues" : [ ]
+}

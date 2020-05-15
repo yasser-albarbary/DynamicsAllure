@@ -1,5 +1,5 @@
 [ {
-  "uid" : "8e0d510b71716460",
+  "uid" : "f1804c07a158ffda",
   "name" : "01 Add Sales Account (\"Test2\",\"07412424093\")",
   "time" : {
     "start" : 1589551763315,
@@ -9,17 +9,27 @@
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "38298010e393a563",
-  "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
+  "uid" : "69a3b4f15df12786",
+  "name" : "01 Add Sales Account (\"\")",
   "time" : {
-    "start" : 1589553939666,
-    "stop" : 1589554014859,
-    "duration" : 75193
+    "start" : 1589555896672,
+    "stop" : 1589555930671,
+    "duration" : 33999
   },
-  "status" : "passed",
-  "severity" : "critical"
+  "status" : "failed",
+  "severity" : "normal"
 }, {
-  "uid" : "537a687c1f3136af",
+  "uid" : "c2a90fc8496a86d8",
+  "name" : "01 Add Sales Account (\"Vincent Williams\")",
+  "time" : {
+    "start" : 1589555852415,
+    "stop" : 1589555889574,
+    "duration" : 37159
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6564f36f6191b90d",
   "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
   "time" : {
     "start" : 1589551839021,
@@ -28,4 +38,44 @@
   },
   "status" : "failed",
   "severity" : "minor"
+}, {
+  "uid" : "9963666f1ee0573f",
+  "name" : "02 Update Sales Account (\"Vincent Williams\",\"07412424093\")",
+  "time" : {
+    "start" : 1589555939747,
+    "stop" : 1589555994526,
+    "duration" : 54779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2883677fe4898d9",
+  "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
+  "time" : {
+    "start" : 1589556001590,
+    "stop" : 1589556064394,
+    "duration" : 62804
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed32c8f9a42f0c01",
+  "name" : "04 Delete sales account (\"Vincent Williams\")",
+  "time" : {
+    "start" : 1589556073195,
+    "stop" : 1589556155452,
+    "duration" : 82257
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3b8cd60fe7b694d",
+  "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
+  "time" : {
+    "start" : 1589553939666,
+    "stop" : 1589554014859,
+    "duration" : 75193
+  },
+  "status" : "passed",
+  "severity" : "critical"
 } ]

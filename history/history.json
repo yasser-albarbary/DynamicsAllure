@@ -1,4 +1,103 @@
 {
+  "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2883677fe4898d9",
+      "status" : "failed",
+      "statusDetails" : "No command with the name 'Create PDF' exists inside of Commandbar.",
+      "time" : {
+        "start" : 1589556001590,
+        "stop" : 1589556064394,
+        "duration" : 62804
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._02UpdateSalesAccount(\"Vincent Williams\",\"07412424093\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9963666f1ee0573f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589555939747,
+        "stop" : 1589555994526,
+        "duration" : 54779
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._01AddSalesAccount(\"Vincent Williams\",null)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2a90fc8496a86d8",
+      "status" : "broken",
+      "statusDetails" : "No matching step definition found for the step",
+      "time" : {
+        "start" : 1589555852415,
+        "stop" : 1589555889574,
+        "duration" : 37159
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._04DeleteSalesAccount(\"Vincent Williams\",null)" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed32c8f9a42f0c01",
+      "status" : "failed",
+      "statusDetails" : "Delete Button is not available",
+      "time" : {
+        "start" : 1589556073195,
+        "stop" : 1589556155452,
+        "duration" : 82257
+      }
+    } ]
+  },
+  "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._01AddSalesAccount(\"\",null)" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69a3b4f15df12786",
+      "status" : "failed",
+      "statusDetails" : "Index and length must refer to a location within the string.\r\nParameter name: length",
+      "time" : {
+        "start" : 1589555896672,
+        "stop" : 1589555930671,
+        "duration" : 33999
+      }
+    } ]
+  },
   "cdafn_base.Features.Dynamics.DynamicsEasyReproFeature._01AddSalesAccount(\"Test2\",\"07412424093\",null)" : {
     "statistic" : {
       "failed" : 0,
@@ -9,7 +108,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e0d510b71716460",
+      "uid" : "f1804c07a158ffda",
       "status" : "passed",
       "time" : {
         "start" : 1589551763315,
@@ -28,7 +127,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "537a687c1f3136af",
+      "uid" : "6564f36f6191b90d",
       "status" : "failed",
       "statusDetails" : "An error occur trying to open the record at position 0",
       "time" : {
@@ -48,7 +147,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38298010e393a563",
+      "uid" : "a3b8cd60fe7b694d",
       "status" : "passed",
       "time" : {
         "start" : 1589553939666,

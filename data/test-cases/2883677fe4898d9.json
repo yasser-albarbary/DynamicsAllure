@@ -1,0 +1,197 @@
+{
+  "uid" : "2883677fe4898d9",
+  "name" : "03 Check update in PDF export (\"Vincent Williams\",\"0789355690\")",
+  "fullName" : "03 Check update in PDF export",
+  "historyId" : "cdafn_base.Features.Dynamics.DynamicsEasyRepoFeature._03CheckUpdateInPDFExport(\"Vincent Williams\",\"0789355690\",null)",
+  "time" : {
+    "start" : 1589556001590,
+    "stop" : 1589556064394,
+    "duration" : 62804
+  },
+  "status" : "failed",
+  "statusMessage" : "No command with the name 'Create PDF' exists inside of Commandbar.",
+  "statusTrace" : "System.InvalidOperationException: No command with the name 'Create PDF' exists inside of Commandbar.\r\n   at Microsoft.Dynamics365.UIAutomation.Api.UCI.WebClient.<>c__DisplayClass59_0.<ClickCommand>b__0(IWebDriver driver)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserCommand`1.Execute[T1,T2,T3,T4,T5,T6,T7,T8,T9](IWebDriver driver, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserPage.Execute[TResult](BrowserCommandOptions options, Func`2 delegate)\r\n   at cdafn_base.StepDefinitions.DynamicsEasyReproSteps.WhenCreatesPdfFile() in C:\\Users\\Testing\\CSharpAgent\\_work\\4\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyReproSteps.cs:line 238\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [10000]",
+    "time" : {
+      "start" : 1589555998918,
+      "stop" : 1589556001537,
+      "duration" : 2619
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589555849127,
+      "stop" : 1589555849130,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [10000]",
+    "time" : {
+      "start" : 1589555849130,
+      "stop" : 1589555849130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "No command with the name 'Create PDF' exists inside of Commandbar.",
+    "statusTrace" : "System.InvalidOperationException: No command with the name 'Create PDF' exists inside of Commandbar.\r\n   at Microsoft.Dynamics365.UIAutomation.Api.UCI.WebClient.<>c__DisplayClass59_0.<ClickCommand>b__0(IWebDriver driver)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserCommand`1.Execute[T1,T2,T3,T4,T5,T6,T7,T8,T9](IWebDriver driver, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9)\r\n   at Microsoft.Dynamics365.UIAutomation.Browser.BrowserPage.Execute[TResult](BrowserCommandOptions options, Func`2 delegate)\r\n   at cdafn_base.StepDefinitions.DynamicsEasyReproSteps.WhenCreatesPdfFile() in C:\\Users\\Testing\\CSharpAgent\\_work\\4\\s\\cdafn-base\\StepDefinitions\\Dynamics\\DynamicsEasyReproSteps.cs:line 238\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422",
+    "steps" : [ {
+      "name" : "Given  a user has logged into microsoft dynamics",
+      "time" : {
+        "start" : 1589556001590,
+        "stop" : 1589556017562,
+        "duration" : 15972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  the user navigates to the Sales Hub Page",
+      "time" : {
+        "start" : 1589556017562,
+        "stop" : 1589556037694,
+        "duration" : 20132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  updates the account 'Vincent Williams' with phone number '0789355690'",
+      "time" : {
+        "start" : 1589556037694,
+        "stop" : 1589556061951,
+        "duration" : 24257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  creates pdf file",
+      "time" : {
+        "start" : 1589556061951,
+        "stop" : 1589556064393,
+        "duration" : 2442
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the pdf file is exported with the updated '0789355690'",
+      "time" : {
+        "start" : 1589556064394,
+        "stop" : 1589556064394,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CleanUp [10000]",
+    "time" : {
+      "start" : 1589556064394,
+      "stop" : 1589556070669,
+      "duration" : 6275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "TACI-EUD-DP"
+  }, {
+    "name" : "feature",
+    "value" : "DynamicsEasyRepo"
+  }, {
+    "name" : "tag",
+    "value" : "Dynamics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Dynamics" ]
+  },
+  "source" : "2883677fe4898d9.json",
+  "parameterValues" : [ ]
+}
