@@ -1,5 +1,5 @@
 [ {
-  "uid" : "d179492e195e881b",
+  "uid" : "8e0d510b71716460",
   "name" : "01 Add Sales Account (\"Test2\",\"07412424093\")",
   "time" : {
     "start" : 1589551763315,
@@ -9,7 +9,17 @@
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "66a3847c5139f7ec",
+  "uid" : "38298010e393a563",
+  "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
+  "time" : {
+    "start" : 1589553939666,
+    "stop" : 1589554014859,
+    "duration" : 75193
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "537a687c1f3136af",
   "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
   "time" : {
     "start" : 1589551839021,
@@ -18,14 +28,4 @@
   },
   "status" : "failed",
   "severity" : "minor"
-}, {
-  "uid" : "77ead5ebda478629",
-  "name" : "01 Add Sales Account (\"Test\",\"07342928235\")",
-  "time" : {
-    "start" : 1589551683002,
-    "stop" : 1589551754174,
-    "duration" : 71172
-  },
-  "status" : "passed",
-  "severity" : "critical"
 } ]

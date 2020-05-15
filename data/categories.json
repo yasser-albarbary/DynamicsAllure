@@ -7,7 +7,7 @@
       "name" : "An error occur trying to open the record at position 0",
       "children" : [ {
         "name" : "02 Update Sales Account (\"Failing Test\",\"07412424093\")",
-        "uid" : "66a3847c5139f7ec",
+        "uid" : "537a687c1f3136af",
         "parentUid" : "792a38a97c115e5ec7885379628df2a7",
         "status" : "failed",
         "time" : {
